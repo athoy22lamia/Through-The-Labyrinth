@@ -158,3 +158,22 @@ footer a:hover {
     background-position: center bottom;
   }
 }
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(128, 0, 32, 0.8); /* maroon-burgundy blend */
+  color: white;
+  font-family: 'Georgia', serif;
+  margin-top: 40px;
+  border-top: 2px solid white;
+}
+
+.footer a img {
+  margin-top: 10px;
+  transition: transform 0.3s;
+}
+
+.footer a img:hover {
+  transform: scale(1.1);
+}
+
